@@ -1,0 +1,121 @@
+{
+  "_id": "665a1b2c3d4e5f6a7b8c0010",
+  "name": "MongoDB AI Hackathon 2025",
+  "description": "Build innovative AI-powered applications using MongoDB Atlas Vector Search, Voyage AI embeddings, and the Atlas Developer Data Platform. Teams of 2-4 will compete over 48 hours to create the most impactful project.",
+  "theme": "AI + Developer Experience",
+  "startDate": "2025-09-15T09:00:00.000Z",
+  "endDate": "2025-09-17T17:00:00.000Z",
+  "registrationDeadline": "2025-09-10T23:59:59.000Z",
+  "submissionDeadline": "2025-09-17T14:00:00.000Z",
+  "location": "MongoDB HQ, New York, NY",
+  "city": "New York",
+  "country": "US",
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [-73.9857, 40.7484]
+  },
+  "venue": "MongoDB Headquarters, 1633 Broadway, 38th Floor",
+  "capacity": 200,
+  "isVirtual": false,
+  "tags": ["hackathon", "ai", "vector-search", "mongodb", "new-york"],
+  "rules": "1. Teams of 2-4 members.\n2. All code must be written during the hackathon.\n3. Projects must use MongoDB Atlas as the primary database.\n4. At least one AI/ML feature is required.\n5. Open source libraries are allowed.\n6. Final submission must include a 3-minute demo video.",
+  "judging_criteria": ["Innovation", "Technical Complexity", "MongoDB Usage", "Presentation"],
+  "judgingRubric": [
+    {
+      "name": "Innovation",
+      "description": "How creative and novel is the solution? Does it solve a real problem in a unique way?",
+      "weight": 0.30,
+      "maxScore": 10
+    },
+    {
+      "name": "Technical Complexity",
+      "description": "How technically challenging is the implementation? Quality of code and architecture.",
+      "weight": 0.25,
+      "maxScore": 10
+    },
+    {
+      "name": "MongoDB Usage",
+      "description": "How effectively does the project leverage MongoDB features (Atlas Search, Vector Search, Aggregation, Change Streams)?",
+      "weight": 0.25,
+      "maxScore": 10
+    },
+    {
+      "name": "Presentation",
+      "description": "Clarity of demo, quality of documentation, and overall polish.",
+      "weight": 0.20,
+      "maxScore": 10
+    }
+  ],
+  "organizers": [
+    "665a1b2c3d4e5f6a7b8c0001",
+    "665a1b2c3d4e5f6a7b8c0002"
+  ],
+  "partners": [
+    "665a1b2c3d4e5f6a7b8c0090",
+    "665a1b2c3d4e5f6a7b8c0091"
+  ],
+  "status": "open",
+  "resultsPublished": false,
+  "resultsPublishedAt": null,
+  "feedbackForms": {
+    "participant": "665a1b2c3d4e5f6a7b8c00a0",
+    "partner": "665a1b2c3d4e5f6a7b8c00a1"
+  },
+  "atlasProvisioning": {
+    "enabled": true,
+    "defaultProvider": "AWS",
+    "defaultRegion": "US_EAST_1",
+    "openNetworkAccess": true,
+    "maxDbUsersPerCluster": 5,
+    "autoCleanupOnEventEnd": true,
+    "allowedProviders": ["AWS", "GCP"],
+    "allowedRegions": ["US_EAST_1", "US_WEST_2"]
+  },
+  "landingPage": {
+    "template": "hackathon",
+    "slug": "mongodb-ai-hackathon-2025",
+    "published": true,
+    "registrationFormConfig": "665a1b2c3d4e5f6a7b8c00b0",
+    "customContent": {
+      "hero": {
+        "headline": "Build the Future with MongoDB + AI",
+        "subheadline": "48 hours. Your team. $25,000 in prizes.",
+        "ctaText": "Register Now",
+        "backgroundImage": "/images/events/ai-hackathon-hero.jpg"
+      },
+      "about": {
+        "content": "Join developers from around the world to build AI-powered applications using MongoDB Atlas. Whether you're into RAG pipelines, semantic search, or AI agents, this is your chance to innovate."
+      },
+      "prizes": [
+        { "place": "1st", "title": "Grand Prize", "value": "$10,000 + MongoDB Atlas credits" },
+        { "place": "2nd", "title": "Runner Up", "value": "$5,000 + MongoDB swag" },
+        { "place": "3rd", "title": "Third Place", "value": "$3,000 + MongoDB swag" },
+        { "place": "Special", "title": "Best Vector Search Usage", "value": "$2,000" },
+        { "place": "Special", "title": "Most Creative AI Application", "value": "$2,000" },
+        { "place": "Special", "title": "Best First-Time Hacker", "value": "$1,000" }
+      ],
+      "schedule": [
+        { "time": "2025-09-15T09:00:00Z", "title": "Check-in & Breakfast", "description": "Badge pickup, team formation" },
+        { "time": "2025-09-15T10:00:00Z", "title": "Opening Ceremony", "description": "Welcome, rules, and sponsor intros" },
+        { "time": "2025-09-15T11:00:00Z", "title": "Hacking Begins!", "description": "Atlas clusters provisioned automatically" },
+        { "time": "2025-09-16T12:00:00Z", "title": "Workshop: Vector Search 101", "description": "Hands-on Atlas Vector Search tutorial" },
+        { "time": "2025-09-17T14:00:00Z", "title": "Submissions Due", "description": "Code freeze and demo uploads" },
+        { "time": "2025-09-17T15:00:00Z", "title": "Demo Presentations", "description": "Top 10 teams present to judges" },
+        { "time": "2025-09-17T16:30:00Z", "title": "Awards Ceremony", "description": "Winners announced!" }
+      ],
+      "sponsors": [
+        { "name": "MongoDB", "logo": "/images/sponsors/mongodb.svg", "tier": "platinum", "url": "https://mongodb.com" },
+        { "name": "Voyage AI", "logo": "/images/sponsors/voyage.svg", "tier": "gold", "url": "https://voyage.ai" },
+        { "name": "Vercel", "logo": "/images/sponsors/vercel.svg", "tier": "silver", "url": "https://vercel.com" }
+      ],
+      "faq": [
+        { "question": "Do I need a team?", "answer": "You can register solo and find teammates at the event, or bring your own team of 2-4." },
+        { "question": "Is it free?", "answer": "Yes! Registration, food, and swag are all free." },
+        { "question": "What should I bring?", "answer": "Your laptop, charger, and enthusiasm. We provide everything else." },
+        { "question": "Do I need MongoDB experience?", "answer": "No! We have workshops and mentors to help you get started." }
+      ]
+    }
+  },
+  "createdAt": "2025-07-01T12:00:00.000Z",
+  "updatedAt": "2025-09-01T08:30:00.000Z"
+}

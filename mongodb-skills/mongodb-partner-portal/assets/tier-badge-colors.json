@@ -1,0 +1,52 @@
+{
+  "platinum": {
+    "color": "#B0B0B0",
+    "label": "Platinum",
+    "sortOrder": 1,
+    "chipSx": {
+      "backgroundColor": "rgba(176, 176, 176, 0.15)",
+      "color": "#B0B0B0",
+      "border": "1px solid rgba(176, 176, 176, 0.3)"
+    }
+  },
+  "gold": {
+    "color": "#FFD700",
+    "label": "Gold",
+    "sortOrder": 2,
+    "chipSx": {
+      "backgroundColor": "rgba(255, 215, 0, 0.12)",
+      "color": "#DAA520",
+      "border": "1px solid rgba(255, 215, 0, 0.3)"
+    }
+  },
+  "silver": {
+    "color": "#C0C0C0",
+    "label": "Silver",
+    "sortOrder": 3,
+    "chipSx": {
+      "backgroundColor": "rgba(192, 192, 192, 0.12)",
+      "color": "#808080",
+      "border": "1px solid rgba(192, 192, 192, 0.3)"
+    }
+  },
+  "bronze": {
+    "color": "#CD7F32",
+    "label": "Bronze",
+    "sortOrder": 4,
+    "chipSx": {
+      "backgroundColor": "rgba(205, 127, 50, 0.12)",
+      "color": "#CD7F32",
+      "border": "1px solid rgba(205, 127, 50, 0.3)"
+    }
+  },
+  "community": {
+    "color": "#00ED64",
+    "label": "Community",
+    "sortOrder": 5,
+    "chipSx": {
+      "backgroundColor": "rgba(0, 237, 100, 0.12)",
+      "color": "#00ED64",
+      "border": "1px solid rgba(0, 237, 100, 0.3)"
+    }
+  }
+}

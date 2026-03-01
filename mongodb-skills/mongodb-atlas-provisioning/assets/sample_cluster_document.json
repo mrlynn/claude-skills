@@ -1,0 +1,42 @@
+{
+  "_id": "665b2c3d4e5f6a7b8c9d1234",
+  "eventId": "665a1b2c3d4e5f6a7b8c0010",
+  "teamId": "665a1b2c3d4e5f6a7b8c0050",
+  "projectId": "665a1b2c3d4e5f6a7b8c0070",
+  "provisionedBy": "665a1b2c3d4e5f6a7b8c0002",
+  "atlasProjectId": "6651a2b3c4d5e6f7a8b90001",
+  "atlasProjectName": "devrel-mongodb-ai-hackathon-team-atlas-builders",
+  "atlasClusterName": "hackathon-cluster0",
+  "atlasClusterId": "6651a2b3c4d5e6f7a8b90002",
+  "connectionString": "mongodb+srv://hackathon-cluster0.ab1cd.mongodb.net/?retryWrites=true&w=majority&appName=devrel-platform-hackathon-atlas",
+  "standardConnectionString": "mongodb://hackathon-cluster0-shard-00-00.ab1cd.mongodb.net:27017,hackathon-cluster0-shard-00-01.ab1cd.mongodb.net:27017/?ssl=true&replicaSet=atlas-abc123-shard-0&authSource=admin",
+  "databaseUsers": [
+    {
+      "username": "team-atlas-builders-leader",
+      "createdAt": "2025-09-15T09:30:00.000Z",
+      "createdBy": "665a1b2c3d4e5f6a7b8c0002"
+    },
+    {
+      "username": "team-atlas-builders-member-1",
+      "createdAt": "2025-09-15T10:15:00.000Z",
+      "createdBy": "665a1b2c3d4e5f6a7b8c0003"
+    }
+  ],
+  "ipAccessList": [
+    {
+      "cidrBlock": "0.0.0.0/0",
+      "comment": "Open access for hackathon (auto-configured)",
+      "addedAt": "2025-09-15T09:30:00.000Z",
+      "addedBy": "665a1b2c3d4e5f6a7b8c0002"
+    }
+  ],
+  "status": "idle",
+  "providerName": "AWS",
+  "regionName": "US_EAST_1",
+  "mongoDBVersion": "8.0.4",
+  "errorMessage": null,
+  "lastStatusCheck": "2025-09-15T09:45:00.000Z",
+  "deletedAt": null,
+  "createdAt": "2025-09-15T09:30:00.000Z",
+  "updatedAt": "2025-09-15T09:45:00.000Z"
+}

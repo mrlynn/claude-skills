@@ -1,0 +1,10 @@
+{
+  "name": "mongodb-devrel-skills",
+  "description": "8 production-ready MongoDB DevRel skills for Next.js apps: project scaffold, RBAC, email, Atlas provisioning, AI/RAG, event management, partner portal, and conventions advisor",
+  "version": "1.0.0",
+  "author": {
+    "name": "MongoDB Developer Relations"
+  },
+  "license": "MIT",
+  "skills": "./"
+}

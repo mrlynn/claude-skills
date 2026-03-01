@@ -1,0 +1,54 @@
+{
+  "_id": "665a1b2c3d4e5f6a7b8c0090",
+  "name": "Voyage AI",
+  "description": "Voyage AI builds state-of-the-art embedding models for retrieval and RAG applications. Their models power semantic search, recommendation systems, and AI agents across thousands of production deployments.",
+  "logo": "/images/partners/voyage-ai-logo.svg",
+  "website": "https://voyage.ai",
+  "industry": "Artificial Intelligence",
+  "tier": "gold",
+  "status": "active",
+  "companyInfo": {
+    "size": "small",
+    "headquarters": "San Francisco, CA",
+    "foundedYear": 2023,
+    "employeeCount": "50-100"
+  },
+  "contacts": [
+    {
+      "name": "Sarah Chen",
+      "email": "sarah@voyage.ai",
+      "phone": "+1-415-555-0101",
+      "role": "Developer Relations Lead",
+      "isPrimary": true
+    },
+    {
+      "name": "James Park",
+      "email": "james@voyage.ai",
+      "phone": null,
+      "role": "Partnerships Manager",
+      "isPrimary": false
+    }
+  ],
+  "engagement": {
+    "eventsParticipated": [
+      "665a1b2c3d4e5f6a7b8c0010",
+      "665a1b2c3d4e5f6a7b8c0011"
+    ],
+    "prizesOffered": [
+      "665a1b2c3d4e5f6a7b8c0080"
+    ],
+    "totalContribution": 15000,
+    "engagementLevel": "high",
+    "lastEngagementDate": "2025-09-15T09:00:00.000Z"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/voyage-ai",
+    "twitter": "https://twitter.com/voyage_ai",
+    "github": "https://github.com/voyage-ai",
+    "youtube": null
+  },
+  "tags": ["ai", "embeddings", "vector-search", "rag", "machine-learning"],
+  "notes": "Strong technical partnership. They provide free API credits for hackathon participants. Primary contact Sarah is very responsive. Potential for co-branded workshop content.",
+  "createdAt": "2025-03-10T14:00:00.000Z",
+  "updatedAt": "2025-09-15T10:30:00.000Z"
+}

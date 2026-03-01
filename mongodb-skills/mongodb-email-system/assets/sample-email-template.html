@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{subject}}</title>
+  <style>
+    /* Reset */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+    body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #F5F5F5; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+
+  <!-- Wrapper -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color: #F5F5F5;">
+    <tr>
+      <td align="center" style="padding: 40px 20px;">
+
+        <!-- Email Container -->
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width: 600px; width: 100%;">
+
+          <!-- Header: Forest Green Bar -->
+          <tr>
+            <td style="background-color: #00684A; padding: 24px 32px; border-radius: 12px 12px 0 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>
+                    <!-- MongoDB leaf logo (text fallback) -->
+                    <img src="https://www.mongodb.com/assets/images/global/leaf.svg" alt="MongoDB" width="28" height="40" style="display: inline-block; vertical-align: middle; margin-right: 12px;">
+                    <span style="color: #FFFFFF; font-size: 20px; font-weight: 600; vertical-align: middle;">{{appName}}</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Body: White Content Area -->
+          <tr>
+            <td style="background-color: #FFFFFF; padding: 40px 32px;">
+              <h1 style="margin: 0 0 16px 0; color: #001E2B; font-size: 24px; font-weight: 600; line-height: 1.3;">
+                {{heading}}
+              </h1>
+
+              <p style="margin: 0 0 24px 0; color: #3D4F58; font-size: 16px; line-height: 1.6;">
+                Hi {{recipientName}},
+              </p>
+
+              <p style="margin: 0 0 24px 0; color: #3D4F58; font-size: 16px; line-height: 1.6;">
+                {{bodyText}}
+              </p>
+
+              {{#if ctaUrl}}
+              <!-- CTA Button -->
+              <table role="presentation" cellpadding="0" cellspacing="0" style="margin: 32px 0;">
+                <tr>
+                  <td style="border-radius: 8px; background-color: #00684A;">
+                    <a href="{{ctaUrl}}" target="_blank" style="display: inline-block; padding: 14px 28px; color: #FFFFFF; font-size: 16px; font-weight: 500; text-decoration: none; border-radius: 8px;">
+                      {{ctaText}}
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              {{/if}}
+
+              {{#if secondaryText}}
+              <p style="margin: 0 0 16px 0; color: #3D4F58; font-size: 14px; line-height: 1.6;">
+                {{secondaryText}}
+              </p>
+              {{/if}}
+
+              {{#if linkFallback}}
+              <p style="margin: 24px 0 0 0; color: #889397; font-size: 13px; line-height: 1.5;">
+                If the button above doesn't work, copy and paste this link into your browser:<br>
+                <a href="{{ctaUrl}}" style="color: #006EFF; word-break: break-all;">{{ctaUrl}}</a>
+              </p>
+              {{/if}}
+            </td>
+          </tr>
+
+          <!-- Footer: Light Gray -->
+          <tr>
+            <td style="background-color: #F9FAFA; padding: 24px 32px; border-top: 1px solid #E8EDEB; border-radius: 0 0 12px 12px;">
+              <p style="margin: 0 0 8px 0; color: #889397; font-size: 13px; line-height: 1.5; text-align: center;">
+                &copy; {{year}} {{appName}} &mdash; Built with MongoDB
+              </p>
+              <p style="margin: 0; color: #889397; font-size: 12px; line-height: 1.5; text-align: center;">
+                {{#if unsubscribeUrl}}
+                <a href="{{unsubscribeUrl}}" style="color: #889397; text-decoration: underline;">Unsubscribe</a> &middot;
+                {{/if}}
+                <a href="{{privacyUrl}}" style="color: #889397; text-decoration: underline;">Privacy Policy</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- /Email Container -->
+
+      </td>
+    </tr>
+  </table>
+  <!-- /Wrapper -->
+
+</body>
+</html>

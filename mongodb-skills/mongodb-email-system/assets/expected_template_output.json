@@ -1,0 +1,53 @@
+{
+  "_id": "665a1b2c3d4e5f6a7b8c9d0e",
+  "name": "event_registration_confirmation",
+  "subject": "You're registered for {{eventName}}!",
+  "description": "Sent to participants after successful event registration",
+  "category": "event",
+  "htmlBody": "<!DOCTYPE html><html>...<!-- full HTML with {{variable}} placeholders -->...</html>",
+  "textBody": "Hi {{recipientName}},\n\nYou're registered for {{eventName}}!\n\nEvent: {{eventName}}\nDate: {{eventDate}}\nLocation: {{eventLocation}}\n\n{{#if teamName}}Your team: {{teamName}}{{/if}}\n\nView event details: {{eventUrl}}\n\nSee you there!\n{{appName}} Team",
+  "variables": [
+    {
+      "name": "recipientName",
+      "description": "Participant's display name",
+      "required": true,
+      "defaultValue": "Participant"
+    },
+    {
+      "name": "eventName",
+      "description": "Name of the event",
+      "required": true
+    },
+    {
+      "name": "eventDate",
+      "description": "Formatted event date string",
+      "required": true
+    },
+    {
+      "name": "eventLocation",
+      "description": "Event location or 'Virtual'",
+      "required": true
+    },
+    {
+      "name": "eventUrl",
+      "description": "Link to event details page",
+      "required": true
+    },
+    {
+      "name": "teamName",
+      "description": "Participant's team name (if assigned)",
+      "required": false
+    },
+    {
+      "name": "appName",
+      "description": "Application name for branding",
+      "required": false,
+      "defaultValue": "MongoDB DevRel Platform"
+    }
+  ],
+  "isActive": true,
+  "version": 1,
+  "lastEditedBy": "665a1b2c3d4e5f6a7b8c0001",
+  "createdAt": "2025-06-01T10:00:00.000Z",
+  "updatedAt": "2025-08-15T14:30:00.000Z"
+}

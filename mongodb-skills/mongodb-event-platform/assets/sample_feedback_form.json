@@ -1,0 +1,102 @@
+{
+  "_id": "665a1b2c3d4e5f6a7b8c00a0",
+  "name": "MongoDB AI Hackathon 2025 — Participant Feedback",
+  "description": "Post-event feedback form for hackathon participants",
+  "eventId": "665a1b2c3d4e5f6a7b8c0010",
+  "targetAudience": "participant",
+  "isActive": true,
+  "sections": [
+    {
+      "title": "Overall Experience",
+      "description": "Tell us about your hackathon experience",
+      "order": 1,
+      "questions": [
+        {
+          "id": "q1_overall_rating",
+          "type": "rating",
+          "label": "How would you rate your overall hackathon experience?",
+          "required": true,
+          "config": {
+            "maxRating": 5,
+            "labels": {
+              "1": "Poor",
+              "3": "Average",
+              "5": "Excellent"
+            }
+          }
+        },
+        {
+          "id": "q2_recommend",
+          "type": "linear_scale",
+          "label": "How likely are you to recommend this hackathon to a friend?",
+          "required": true,
+          "config": {
+            "min": 0,
+            "max": 10,
+            "minLabel": "Not likely at all",
+            "maxLabel": "Extremely likely"
+          }
+        },
+        {
+          "id": "q3_highlights",
+          "type": "checkbox",
+          "label": "What were the highlights of the event? (Select all that apply)",
+          "required": false,
+          "config": {
+            "options": [
+              "Workshops & tutorials",
+              "Mentorship",
+              "Networking opportunities",
+              "Prizes & swag",
+              "Venue & food",
+              "Atlas cluster provisioning",
+              "Sponsor booths",
+              "Final presentations"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Technical Experience",
+      "description": "Help us improve the technical aspects",
+      "order": 2,
+      "questions": [
+        {
+          "id": "q4_mongodb_experience",
+          "type": "multiple_choice",
+          "label": "What was your MongoDB experience level before this hackathon?",
+          "required": true,
+          "config": {
+            "options": [
+              "Complete beginner",
+              "Used it once or twice",
+              "Comfortable with basics",
+              "Experienced developer",
+              "MongoDB expert"
+            ]
+          }
+        },
+        {
+          "id": "q5_improvements",
+          "type": "long_text",
+          "label": "What could we improve for next time?",
+          "required": false,
+          "config": {
+            "placeholder": "Share your suggestions...",
+            "maxLength": 2000
+          }
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "allowAnonymous": false,
+    "allowMultipleSubmissions": false,
+    "showProgressBar": true,
+    "confirmationMessage": "Thank you for your feedback! Your responses help us make future events even better."
+  },
+  "createdBy": "665a1b2c3d4e5f6a7b8c0001",
+  "createdAt": "2025-08-20T10:00:00.000Z",
+  "updatedAt": "2025-08-25T14:30:00.000Z"
+}

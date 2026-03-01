@@ -1,0 +1,11 @@
+{
+  "_comment": "This is the atlasProvisioning subdocument embedded in an Event document",
+  "enabled": true,
+  "defaultProvider": "AWS",
+  "defaultRegion": "US_EAST_1",
+  "openNetworkAccess": true,
+  "maxDbUsersPerCluster": 5,
+  "autoCleanupOnEventEnd": true,
+  "allowedProviders": ["AWS", "GCP"],
+  "allowedRegions": ["US_EAST_1", "US_WEST_2", "EU_WEST_1"]
+}
