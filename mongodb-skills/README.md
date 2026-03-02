@@ -1,6 +1,8 @@
 # MongoDB DevRel Skills for Claude Code
 
-Reusable Claude Code skills extracted from battle-tested patterns in the MongoDB Hackathon Platform. Each skill follows Claude Code best practices: `SKILL.md` with YAML frontmatter, Python CLI tools, reference documentation, and sample assets.
+These skills are the DNA of every MongoDB app I've built in the last few months/years. They started as copy-paste patterns I kept reusing across hackathon platforms, workshop demos, and internal tools — and eventually I realized I was basically maintaining an informal style guide in my head. So I wrote it down... 
+
+Every skill here was started from projects I'm working on... for example from the MongoDB Hackathon Platform... a real production app with 26 Mongoose models, 8 user roles, and all the scar tissue that comes with shipping something people actually use. Each skill follows Claude Code best practices: `SKILL.md` with YAML frontmatter, Python CLI tools, reference documentation, and sample assets.
 
 ## Quick Install
 
@@ -93,7 +95,3 @@ mongodb-event-platform (combines scaffold + RBAC + email + optionally AI/Atlas)
 mongodb-partner-portal (combines scaffold + RBAC + email)
 mongodb-devrel-advisor (references all skills)
 ```
-
-## Origin
-
-Extracted from the [MongoDB Hackathon Platform](https://github.com/mongohacks/hackathon-platform) — a production Next.js 16 application with 26 Mongoose models, 8 user roles, and comprehensive admin tooling.

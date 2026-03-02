@@ -1,6 +1,6 @@
 # Hackathon Judge Assistant
 
-Generate scoring rubrics and constructive feedback for hackathon submissions.
+I've spent years running, and participating in hackathons... judging is one of the hardest things... developers put blood, sweat and tears into their projects and we don't want to let them down with shoddy judging... We'll generate scoring rubrics and constructive feedback for hackathon submissions in an automated way with this skill. 
 
 ## Quick Start
 

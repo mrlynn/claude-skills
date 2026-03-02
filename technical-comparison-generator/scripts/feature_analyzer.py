@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Analyze feature differences between MongoDB and competitor.
-Usage: python feature_analyzer.py --competitor postgres --output features.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze feature differences between MongoDB and competitor.
+  Usage: python feature_analyzer.py --competitor postgres --output features.json
 """
 
 import json

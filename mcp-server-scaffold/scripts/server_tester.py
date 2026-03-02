@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Test MCP server tools and validate responses.
-Usage: python server_tester.py mcp-server/ --test-all
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Test MCP server tools and validate responses.
+  Usage: python server_tester.py mcp-server/ --test-all
 """
 
 import json

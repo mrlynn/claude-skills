@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Validate CSS/TS/TSX files against the MongoDB brand color palette.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Validate CSS/TS/TSX files against the MongoDB brand color palette.
 
-Scans source files for hex color codes and flags any that do not match
-the approved MongoDB brand palette. Reports unknown colors with file
-paths and line numbers.
+  Scans source files for hex color codes and flags any that do not match
+  the approved MongoDB brand palette. Reports unknown colors with file
+  paths and line numbers.
 """
 
 import argparse

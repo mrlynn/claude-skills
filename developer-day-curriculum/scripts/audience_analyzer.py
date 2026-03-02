@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Analyze customer profile and recommend workshop topics and depth.
-Usage: python audience_analyzer.py customer-profile.json --output analysis.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze customer profile and recommend workshop topics and depth.
+  Usage: python audience_analyzer.py customer-profile.json --output analysis.json
 """
 
 import json

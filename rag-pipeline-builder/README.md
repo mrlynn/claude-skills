@@ -1,6 +1,6 @@
 # RAG Pipeline Builder
 
-Build production-ready RAG (Retrieval-Augmented Generation) pipelines with MongoDB Atlas Vector Search and Voyage AI embeddings.
+RAG is one of those things where the demo takes 20 minutes and production takes 2 months. I've built enough of these pipelines — chunking strategies, embedding cost surprises, retrieval that returns garbage because your chunk boundaries landed mid-sentence — that I finally sat down and codified what actually works. This is the stuff I wish someone handed me the first time.
 
 ## Quick Start
 

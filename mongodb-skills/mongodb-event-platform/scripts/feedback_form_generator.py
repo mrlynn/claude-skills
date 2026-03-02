@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
-"""Generate FeedbackFormConfig JSON from a simple YAML-like spec.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate FeedbackFormConfig JSON from a simple YAML-like spec.
 
-Parses a lightweight spec format into a full FeedbackFormConfig JSON
-document compatible with the MongoDB event platform feedback system.
+  Parses a lightweight spec format into a full FeedbackFormConfig JSON
+  document compatible with the MongoDB event platform feedback system.
 
-Spec format example:
-    name: Post-Event Feedback
-    slug: post-event-2025
-    audience: participant
-    ---
-    section: Overall Experience
-    - How would you rate the event? (rating, required)
-    - What did you enjoy most? (long_text)
-    ---
-    section: Technical
-    - Rate the workshop quality (linear_scale, 1-10)
-    - Which topics were most useful? (checkbox: React, MongoDB, Node.js)
+  Spec format example:
+  name: Post-Event Feedback
+  slug: post-event-2025
+  audience: participant
+  ---
+  section: Overall Experience
+  - How would you rate the event? (rating, required)
+  - What did you enjoy most? (long_text)
+  ---
+  section: Technical
+  - Rate the workshop quality (linear_scale, 1-10)
+  - Which topics were most useful? (checkbox: React, MongoDB, Node.js)
 """
 
 import argparse

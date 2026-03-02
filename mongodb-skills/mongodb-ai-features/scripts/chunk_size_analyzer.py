@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Analyze markdown files to recommend RAG chunk sizes.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze markdown files to recommend RAG chunk sizes.
 
-For each markdown file in a directory: counts words, characters,
-sections (## headings), and estimates tokens. Recommends chunk_size
-and chunk_overlap based on content density for the RAG ingestion
-pipeline.
+  For each markdown file in a directory: counts words, characters,
+  sections (## headings), and estimates tokens. Recommends chunk_size
+  and chunk_overlap based on content density for the RAG ingestion
+  pipeline.
 """
 
 import argparse

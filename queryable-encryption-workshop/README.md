@@ -1,6 +1,6 @@
 # Queryable Encryption Workshop
 
-Generate QE demos for healthcare, finance, and government verticals with compliance mapping.
+Queryable Encryption is one of MongoDB's most impressive features and also one of the hardest to demo convincingly. "Look, the data is encrypted!" doesn't land unless you tie it to something the audience cares about — like HIPAA, PCI-DSS, or FedRAMP. I built this to generate vertical-specific demos that make the compliance connection obvious.
 
 ## Quick Start
 

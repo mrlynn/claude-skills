@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate hands-on exercise scaffolding from agenda.
-Usage: python exercise_scaffolder.py agenda.md --output exercises/
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate hands-on exercise scaffolding from agenda.
+  Usage: python exercise_scaffolder.py agenda.md --output exercises/
 """
 
 import re

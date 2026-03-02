@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Estimate monthly MongoDB Atlas costs by cluster tier and provider.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Estimate monthly MongoDB Atlas costs by cluster tier and provider.
 
-Provides approximate pricing for Atlas dedicated and shared clusters
-across AWS, GCP, and Azure. Supports multiple clusters and outputs
-monthly and annual cost estimates.
+  Provides approximate pricing for Atlas dedicated and shared clusters
+  across AWS, GCP, and Azure. Supports multiple clusters and outputs
+  monthly and annual cost estimates.
 """
 
 import argparse

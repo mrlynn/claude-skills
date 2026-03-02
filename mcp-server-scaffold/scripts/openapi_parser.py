@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Parse OpenAPI/Swagger specs and extract MCP tool definitions.
-Usage: python openapi_parser.py api-spec.yaml --output parsed.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Parse OpenAPI/Swagger specs and extract MCP tool definitions.
+  Usage: python openapi_parser.py api-spec.yaml --output parsed.json
 """
 
 import json

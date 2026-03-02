@@ -4,7 +4,7 @@ description: Self-service Atlas cluster provisioning with HTTP Digest auth, Admi
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: cloud-infrastructure
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Use this skill when building self-service Atlas cluster management, programmatic Atlas Admin API integration, or any feature that provisions MongoDB resources for users/teams. This is MongoDB DevRel's most unique and strategically valuable pattern.
+
+> *This is the one that makes people's eyes light up in demos. Self-service cluster provisioning is MongoDB's secret weapon for hackathon platforms.* — ML
 
 ## Overview
 

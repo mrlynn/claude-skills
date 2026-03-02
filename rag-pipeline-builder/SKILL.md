@@ -4,7 +4,7 @@ description: Build production-ready RAG (Retrieval-Augmented Generation) pipelin
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: ai-engineering
   domain: retrieval-augmented-generation
   updated: 2026-03-01

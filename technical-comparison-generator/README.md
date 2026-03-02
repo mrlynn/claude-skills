@@ -1,6 +1,6 @@
 # Technical Comparison Generator
 
-Generate fair, accurate comparisons between MongoDB and competitors.
+I spent years doing competitive positioning at MongoDB, and the hardest part isn't knowing your product — it's being fair about the other guy's. Nothing kills credibility faster than a comparison that reads like a hit piece. This skill generates honest, balanced technical comparisons. Yes, it was built with MongoDB in mind, but the framework works for any "us vs them" analysis.
 
 ## Quick Start
 

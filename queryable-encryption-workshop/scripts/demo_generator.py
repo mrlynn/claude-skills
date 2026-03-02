@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate QE demo code from vertical analysis.
-Usage: python demo_generator.py analysis.json --output demo/
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate QE demo code from vertical analysis.
+  Usage: python demo_generator.py analysis.json --output demo/
 """
 
 import json

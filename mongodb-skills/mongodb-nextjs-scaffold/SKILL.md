@@ -4,7 +4,7 @@ description: Bootstrap a Next.js + MongoDB + Auth + MUI project with MongoDB bra
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: web-development
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Use this skill when bootstrapping a new Next.js project with MongoDB, or when setting up the foundation layer (database connection, theme, response utilities, validation) for a MongoDB DevRel application.
+
+> *This is where every project starts for me. I got tired of re-explaining "use a singleton connection" and "wrap your API responses" so now Claude just knows.* — ML
 
 ## Overview
 

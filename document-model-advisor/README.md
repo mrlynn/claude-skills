@@ -1,6 +1,6 @@
 # Document Model Advisor
 
-MongoDB schema design guidance focusing on embed vs reference decisions.
+"Should I embed or reference?" — if I had a dollar for every time I've answered that question, I wouldn't need a day job. After 100+ schema reviews, the answer is always "it depends" but the *what it depends on* is surprisingly consistent. This skill captures the decision framework I actually use.
 
 ## Quick Start
 

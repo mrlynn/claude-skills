@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate constructive feedback from scores.
-Usage: python feedback_generator.py scores.json --output feedback.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate constructive feedback from scores.
+  Usage: python feedback_generator.py scores.json --output feedback.md
 """
 
 import json

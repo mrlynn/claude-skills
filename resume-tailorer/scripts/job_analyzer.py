@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Analyze job posting and extract structured requirements.
-Usage: python job_analyzer.py job-posting.txt --output analysis.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze job posting and extract structured requirements.
+  Usage: python job_analyzer.py job-posting.txt --output analysis.json
 """
 
 import re

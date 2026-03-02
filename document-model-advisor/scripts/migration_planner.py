@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Plan SQL → MongoDB schema migration.
-Usage: python migration_planner.py schema.sql --output migration-plan.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Plan SQL → MongoDB schema migration.
+  Usage: python migration_planner.py schema.sql --output migration-plan.json
 """
 
 import re

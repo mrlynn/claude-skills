@@ -4,7 +4,7 @@ description: Add sponsor/partner management with 5-tier system, multiple contact
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: partner-management
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Use this skill when adding sponsor/partner management to a platform: partner CRUD with tier system, contact management, engagement tracking, access request workflows, and partner-specific RBAC.
+
+> *Sponsor management is the feature nobody thinks about until a VP asks "how many Gold partners renewed?" and you're querying raw JSON.* — ML
 
 ## Overview
 

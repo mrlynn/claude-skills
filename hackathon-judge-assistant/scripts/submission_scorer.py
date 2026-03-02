@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Score hackathon submission against rubric.
-Usage: python submission_scorer.py submission.json rubric.md --output scores.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Score hackathon submission against rubric.
+  Usage: python submission_scorer.py submission.json rubric.md --output scores.json
 """
 
 import json

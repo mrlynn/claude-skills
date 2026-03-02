@@ -1,6 +1,6 @@
 # Conference Talk Builder
 
-Generate CFPs, outlines, and presentation structures for technical conferences.
+I've submitted more CFPs than I can count — some accepted, plenty rejected, and a few I'm still embarrassed about. After a while I noticed I was giving the same advice over and over: lead with the audience takeaway, not your credentials. Structure the abstract like a story arc. Time your slides so you're not racing through the last 10. So I turned all of that into this.
 
 ## Quick Start
 

@@ -67,4 +67,4 @@ Why should they listen to you?
 ## References
 
 - Speaking.io: https://speaking.io
-- Lazy CFPs: https://github.com/stephlocke/lazyCFPs
+

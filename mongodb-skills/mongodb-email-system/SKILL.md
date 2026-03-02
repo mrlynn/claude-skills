@@ -4,7 +4,7 @@ description: Add transactional email with DB-backed templates, variable interpol
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: email
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Use this skill when adding transactional email to a Next.js + MongoDB app. Covers SMTP transport, DB-backed templates with variable interpolation, hardcoded fallbacks, template seeding, admin CRUD, preview, and test-send.
+
+> *Every app needs email eventually, and every time it's a mess. DB-backed templates with hardcoded fallbacks means the app never sends a blank email even if someone deletes a template.* — ML
 
 ## Overview
 

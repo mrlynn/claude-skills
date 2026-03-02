@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Map QE features to compliance requirements.
-Usage: python compliance_mapper.py --vertical healthcare --framework HIPAA --output compliance.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Map QE features to compliance requirements.
+  Usage: python compliance_mapper.py --vertical healthcare --framework HIPAA --output compliance.md
 """
 
 import argparse

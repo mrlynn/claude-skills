@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
 """
-Build distribution ZIPs for all skills.
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Build distribution ZIPs for all skills.
 
-Usage:
+  Usage:
   python build_dist.py            # build all distributions
   python build_dist.py --scope professional
   python build_dist.py --scope mongodb

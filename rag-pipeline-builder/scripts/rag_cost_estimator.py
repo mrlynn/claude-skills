@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Estimate RAG pipeline costs (embedding, storage, queries).
-Usage: python rag_cost_estimator.py --docs 1000 --avg-doc-length 2000 --queries-per-month 5000
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Estimate RAG pipeline costs (embedding, storage, queries).
+  Usage: python rag_cost_estimator.py --docs 1000 --avg-doc-length 2000 --queries-per-month 5000
 """
 
 import argparse

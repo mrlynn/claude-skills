@@ -4,7 +4,7 @@ description: Generate MongoDB Queryable Encryption demos customized for industry
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: security
   domain: queryable-encryption
   updated: 2026-03-01

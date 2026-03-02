@@ -1,0 +1,14 @@
+{
+  "topic": "Building Production RAG Systems with Voyage AI and MongoDB Atlas",
+  "problem": "Most RAG tutorials stop at 'hello world' — developers struggle to build production pipelines that handle real-world concerns like cost optimization, retrieval quality measurement, and scalable ingestion of millions of documents",
+  "solution": "A progressive, hands-on walkthrough of building production RAG using the open-source voyageai-cli toolkit — from chunking strategies through two-stage retrieval, asymmetric embedding for 83% cost savings, and quality evaluation with MRR and nDCG@K metrics",
+  "audience": "Backend and full-stack developers building AI-powered applications who want to move beyond toy RAG examples to production-grade retrieval systems",
+  "takeaways": [
+    "Build a complete RAG pipeline from CLI: chunk, embed, store, search, rerank — in one command",
+    "Leverage Voyage AI's shared embedding space for asymmetric retrieval (83% query cost reduction)",
+    "Measure retrieval quality with MRR, nDCG@K, and Recall@K — not just vibes",
+    "Choose the right chunking strategy and embedding model for your domain (code, legal, finance)",
+    "Compose multi-step RAG workflows and expose them as MCP tools for AI agents"
+  ],
+  "proof": "Principal Staff Developer Advocate at MongoDB. Built voyageai-cli (vaicli.com) — an open-source RAG toolkit with 22+ commands, 312+ tests, workflow composition, and MCP server integration. Hands-on experience building and deploying RAG systems with MongoDB Atlas Vector Search."
+}

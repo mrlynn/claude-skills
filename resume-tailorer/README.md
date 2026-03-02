@@ -1,6 +1,6 @@
 # Resume Tailorer
 
-Customize resumes and cover letters for specific job postings with ATS optimization and keyword matching.
+Look, I'm not actively job hunting — but I mentor a lot of people who are, and the number one thing I see is brilliant engineers sending the exact same resume to 50 companies and wondering why they hear nothing back. The ATS eats them alive. I built this to automate the tedious part: analyzing what the job actually wants, matching it to your experience, and reorganizing so the important stuff floats to the top.
 
 ## Quick Start
 

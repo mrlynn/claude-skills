@@ -1,6 +1,6 @@
 # MCP Server Scaffold
 
-Generate Model Context Protocol (MCP) servers from API descriptions.
+MCP servers are the connective tissue of the AI agent ecosystem, and I kept building them from scratch every time. Parse the API spec, map the endpoints to tools, wire up auth, write the same boilerplate. So I automated it. Point this at an OpenAPI spec and you get a working MCP server. I've used it to spin up servers for GitHub, Jira, and a handful of internal APIs.
 
 ## Quick Start
 

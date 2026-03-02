@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Generate partner engagement reports from partner data JSON.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate partner engagement reports from partner data JSON.
 
-Groups partners by tier, calculates per-tier statistics (count,
-average engagement level, total contribution), identifies top
-partners, and flags inactive partners.
+  Groups partners by tier, calculates per-tier statistics (count,
+  average engagement level, total contribution), identifies top
+  partners, and flags inactive partners.
 """
 
 import argparse

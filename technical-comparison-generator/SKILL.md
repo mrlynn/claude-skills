@@ -4,7 +4,7 @@ description: Generate fair, accurate technical comparisons between MongoDB and c
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: competitive-analysis
   domain: technical-comparison
   updated: 2026-03-01

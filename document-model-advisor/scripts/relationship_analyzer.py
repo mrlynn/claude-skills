@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Analyze entity relationships and recommend embed vs reference.
-Usage: python relationship_analyzer.py entities.json --output analysis.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze entity relationships and recommend embed vs reference.
+  Usage: python relationship_analyzer.py entities.json --output analysis.json
 """
 
 import json

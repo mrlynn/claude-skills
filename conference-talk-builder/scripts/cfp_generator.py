@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate conference proposal (CFP) from topic definition.
-Usage: python cfp_generator.py topic.json --output cfp.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate conference proposal (CFP) from topic definition.
+  Usage: python cfp_generator.py topic.json --output cfp.md
 """
 
 import json

@@ -4,7 +4,7 @@ description: Customize resumes and cover letters for specific job postings with 
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: career-development
   domain: job-applications
   updated: 2026-03-01

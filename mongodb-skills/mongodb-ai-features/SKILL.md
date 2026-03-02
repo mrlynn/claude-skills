@@ -4,7 +4,7 @@ description: Add AI capabilities to a MongoDB app including LLM summarization, s
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: artificial-intelligence
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Use this skill when adding AI capabilities to a MongoDB-backed app: LLM summarization, structured generation, RAG pipeline (ingest/embed/retrieve/chat), or AI usage tracking with cost estimation.
+
+> *RAG with MongoDB Atlas Vector Search is my most-requested demo. This skill captures the full pipeline — chunking, embedding, retrieval, chat — so I'm not rebuilding it every time.* — ML
 
 ## Overview
 

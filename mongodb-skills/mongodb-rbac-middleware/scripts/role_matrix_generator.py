@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Generate a role-permission matrix for MongoDB RBAC middleware.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate a role-permission matrix for MongoDB RBAC middleware.
 
-Takes a JSON config file with routes and allowed roles, or uses built-in
-defaults. Outputs a markdown table or JSON showing which roles can
-access which routes.
+  Takes a JSON config file with routes and allowed roles, or uses built-in
+  defaults. Outputs a markdown table or JSON showing which roles can
+  access which routes.
 """
 
 import argparse

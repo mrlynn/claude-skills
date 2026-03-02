@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate MCP server code from parsed API spec.
-Usage: python mcp_generator.py parsed.json --language typescript --output mcp-server/
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate MCP server code from parsed API spec.
+  Usage: python mcp_generator.py parsed.json --language typescript --output mcp-server/
 """
 
 import json

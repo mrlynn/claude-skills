@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Parse email template files and report on template variable usage.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Parse email template files and report on template variable usage.
 
-Scans HTML and TypeScript files for {{variable}} and {{#if variable}}
-patterns. Reports variables found per template and flags potential
-issues such as variables referenced in conditional blocks but never
-defined elsewhere.
+  Scans HTML and TypeScript files for {{variable}} and {{#if variable}}
+  patterns. Reports variables found per template and flags potential
+  issues such as variables referenced in conditional blocks but never
+  defined elsewhere.
 """
 
 import argparse

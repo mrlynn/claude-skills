@@ -4,7 +4,7 @@ description: Add NextAuth v5 authentication with 8-role RBAC, edge-safe middlewa
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: authentication
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Use this skill when adding authentication, role-based access control, or route protection to a Next.js app. Covers NextAuth v5 with JWT strategy, edge middleware, server-side guards, role hierarchy, and admin impersonation.
+
+> *8 roles sounds like overkill until you're building a hackathon platform with admins, organizers, judges, mentors, sponsors, and participants who all need different views of the same data.* — ML
 
 ## Overview
 

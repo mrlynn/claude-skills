@@ -4,7 +4,7 @@ description: Build event/hackathon management with lifecycle states, multi-step 
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: event-management
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Use this skill when building event/hackathon/workshop/conference management features: event CRUD with lifecycle states, multi-step registration with capacity management, dynamic feedback forms, judging rubrics with weighted scoring, and landing pages with slug-based routing.
+
+> *This is the big one. Lifecycle states, registration flows, judging rubrics, feedback forms — basically everything I learned running hackathons for 3 years, codified.* — ML
 
 ## Overview
 

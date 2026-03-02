@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Validate RAG pipeline configuration and test retrieval quality.
-Usage: python pipeline_validator.py config.json [--test-queries queries.json]
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Validate RAG pipeline configuration and test retrieval quality.
+  Usage: python pipeline_validator.py config.json [--test-queries queries.json]
 """
 
 import json

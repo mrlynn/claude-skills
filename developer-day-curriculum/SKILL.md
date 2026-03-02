@@ -4,7 +4,7 @@ description: Generate workshop agendas and hands-on curriculum for customer deve
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: education
   domain: technical-training
   updated: 2026-03-01

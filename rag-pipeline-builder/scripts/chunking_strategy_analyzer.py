@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Analyze documents and recommend optimal chunking strategy.
-Usage: python chunking_strategy_analyzer.py <docs_dir> [--output report.json]
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze documents and recommend optimal chunking strategy.
+  Usage: python chunking_strategy_analyzer.py <docs_dir> [--output report.json]
 """
 
 import os

@@ -5,7 +5,7 @@ license: MIT
 disable-model-invocation: true
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: mongodb-devrel
   domain: conventions
   updated: 2026-03-01
@@ -17,6 +17,8 @@ metadata:
 ## Trigger
 
 Always active as background context. Use when making any architectural decision, choosing libraries, naming conventions, structuring code, or applying MongoDB branding in a DevRel project. This skill synthesizes the conventions from all other skills into a quick-reference guide.
+
+> *This is the glue. It doesn't build anything — it just keeps Claude honest about naming conventions, branding, and architecture decisions across all the other skills.* — ML
 
 ## Overview
 

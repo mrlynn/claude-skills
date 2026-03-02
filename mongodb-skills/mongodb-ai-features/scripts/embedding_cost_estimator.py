@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Estimate embedding costs for Voyage AI and OpenAI models.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Estimate embedding costs for Voyage AI and OpenAI models.
 
-Calculates one-time ingestion cost, monthly query cost, and annual
-totals based on document count, average token size, and query volume.
+  Calculates one-time ingestion cost, monthly query cost, and annual
+  totals based on document count, average token size, and query volume.
 """
 
 import argparse

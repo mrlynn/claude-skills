@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Check a .env file against required environment variables for MongoDB skills.
+"""
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Check a .env file against required environment variables for MongoDB skills.
 
-Maintains a built-in registry mapping skill names to their required
-environment variables. Reports missing, empty, and extraneous variables.
+  Maintains a built-in registry mapping skill names to their required
+  environment variables. Reports missing, empty, and extraneous variables.
 """
 
 import argparse

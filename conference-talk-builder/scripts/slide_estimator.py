@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+author: Michael Lynn [mlynn.org](https://mlynn.org)
+updated: 2026-03-02
 Estimate slide count from outline.
 Usage: python slide_estimator.py outline.md --output estimate.json
 """

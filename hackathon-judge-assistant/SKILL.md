@@ -4,7 +4,7 @@ description: Generate scoring rubrics and constructive feedback for hackathon su
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: events
   domain: hackathon-judging
   updated: 2026-03-01

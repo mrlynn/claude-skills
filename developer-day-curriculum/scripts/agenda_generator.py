@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate time-blocked workshop agenda from audience analysis.
-Usage: python agenda_generator.py analysis.json --duration 6 --output agenda.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate time-blocked workshop agenda from audience analysis.
+  Usage: python agenda_generator.py analysis.json --duration 6 --output agenda.md
 """
 
 import json

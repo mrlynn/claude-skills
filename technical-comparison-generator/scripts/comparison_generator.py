@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate comparison matrix from feature analysis.
-Usage: python comparison_generator.py features.json --output comparison.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate comparison matrix from feature analysis.
+  Usage: python comparison_generator.py features.json --output comparison.md
 """
 
 import json

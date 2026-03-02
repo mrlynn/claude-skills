@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Analyze database fit for specific use case.
-Usage: python use_case_matcher.py --use-case "real-time analytics" --output fit.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze database fit for specific use case.
+  Usage: python use_case_matcher.py --use-case "real-time analytics" --output fit.md
 """
 
 import argparse

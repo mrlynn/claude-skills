@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate hackathon judging rubric.
-Usage: python rubric_generator.py --type corporate --output rubric.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate hackathon judging rubric.
+  Usage: python rubric_generator.py --type corporate --output rubric.md
 """
 
 import argparse

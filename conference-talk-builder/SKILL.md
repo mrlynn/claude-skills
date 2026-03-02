@@ -4,7 +4,7 @@ description: Generate conference talk proposals (CFPs), abstracts, and presentat
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: public-speaking
   domain: conference-presentations
   updated: 2026-03-01

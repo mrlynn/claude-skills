@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Analyze industry vertical data sensitivity requirements.
-Usage: python vertical_analyzer.py --vertical healthcare --output analysis.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Analyze industry vertical data sensitivity requirements.
+  Usage: python vertical_analyzer.py --vertical healthcare --output analysis.json
 """
 
 import json

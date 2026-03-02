@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Match candidate experience to job requirements.
-Usage: python resume_matcher.py master-resume.json job-analysis.json --output matches.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Match candidate experience to job requirements.
+  Usage: python resume_matcher.py master-resume.json job-analysis.json --output matches.json
 """
 
 import json

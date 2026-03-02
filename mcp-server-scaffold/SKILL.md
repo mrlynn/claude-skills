@@ -4,7 +4,7 @@ description: Generate Model Context Protocol (MCP) tool servers from API descrip
 license: MIT
 metadata:
   version: 1.0.0
-  author: MongoDB Developer Relations
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
   category: ai-tooling
   domain: mcp-protocol
   updated: 2026-03-01

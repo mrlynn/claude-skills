@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate optimized MongoDB schema from relationship analysis.
-Usage: python schema_optimizer.py analysis.json --output schema.json
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate optimized MongoDB schema from relationship analysis.
+  Usage: python schema_optimizer.py analysis.json --output schema.json
 """
 
 import json

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+author: Michael Lynn [mlynn.org](https://mlynn.org)
+updated: 2026-03-02
 Build detailed talk outline from CFP.
 Usage: python outline_builder.py cfp.md --duration 45 --output outline.md
 """

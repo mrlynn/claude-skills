@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate ATS-optimized resume from master resume and match analysis.
-Usage: python ats_optimizer.py master-resume.json matches.json --output tailored-resume.md
+  author: Michael Lynn [mlynn.org](https://mlynn.org)
+  updated: 2026-03-02
+  Generate ATS-optimized resume from master resume and match analysis.
+  Usage: python ats_optimizer.py master-resume.json matches.json --output tailored-resume.md
 """
 
 import json

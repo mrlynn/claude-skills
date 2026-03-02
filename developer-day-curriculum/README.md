@@ -1,6 +1,6 @@
 # Developer Day Curriculum Generator
 
-Generate workshop agendas and hands-on curriculum for customer developer days, technical training, and field engagements.
+Ok, admittedly, this one will probably not be useful for you, unless you're on the MongoDB DevRel team... we do workshops... and I wrote this to help with generating new agendas, etc... With it you can generate workshop agendas and hands-on curriculum for customer developer days, technical training, and field engagements.
 
 ## Quick Start
 
@@ -65,6 +65,7 @@ python scripts/audience_analyzer.py fintech-customer.json --output analysis.json
 ```
 
 ### agenda_generator.py
+### We won't always have advanced knowledge of the audience, but roll with me here, ok?
 Generates time-blocked agenda from audience analysis.
 
 **Features:**
