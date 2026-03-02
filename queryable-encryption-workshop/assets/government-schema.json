@@ -1,0 +1,35 @@
+{
+  "collectionName": "citizens",
+  "encryptedFields": {
+    "fields": [
+      {
+        "path": "ssn",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}",
+        "queries": {"queryType": "equality"}
+      },
+      {
+        "path": "taxId",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}",
+        "queries": {"queryType": "equality"}
+      },
+      {
+        "path": "clearanceLevel",
+        "bsonType": "int",
+        "keyId": "{{DATA_KEY_ID}}",
+        "queries": {
+          "queryType": "range",
+          "sparsity": 1,
+          "min": 0,
+          "max": 10
+        }
+      },
+      {
+        "path": "classifiedNotes",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}"
+      }
+    ]
+  }
+}

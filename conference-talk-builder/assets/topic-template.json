@@ -1,0 +1,13 @@
+{
+  "topic": "Building RAG Systems That Don't Hallucinate",
+  "problem": "60% of production RAG implementations still hallucinate despite promises of accuracy",
+  "solution": "5 proven patterns for trustworthy RAG: content hashing, score boosting, hybrid search, source attribution, and feedback loops",
+  "audience": "Backend developers building AI applications with Python",
+  "takeaways": [
+    "Incremental ingestion pattern (90% cost savings)",
+    "Score boosting for retrieval quality (40% improvement)",
+    "Production monitoring with MRR and Precision@K",
+    "Cost optimization for embeddings and storage"
+  ],
+  "proof": "Built RAG systems for 5 Fortune 500 companies, 50M+ embeddings, 20+ deployments"
+}

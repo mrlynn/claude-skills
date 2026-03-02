@@ -1,0 +1,11 @@
+{
+  "team": "Team MongoDB",
+  "project": "Real-time IoT Dashboard",
+  "description": "Dashboard for monitoring IoT sensor data with MongoDB time series collections",
+  "innovation_score": 4,
+  "technical_score": 4,
+  "presentation_score": 5,
+  "problem_fit_score": 4,
+  "completeness_score": 4,
+  "notes": "Excellent use of time series, clean UI, well-presented demo"
+}

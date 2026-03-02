@@ -1,0 +1,20 @@
+[
+  {
+    "query": "How do I configure queryable encryption?",
+    "expected_sources": ["docs/encryption/setup.md", "docs/encryption/overview.md"],
+    "min_score": 0.7,
+    "category": "setup"
+  },
+  {
+    "query": "What are the performance implications of vector search?",
+    "expected_sources": ["docs/vector-search/performance.md"],
+    "min_score": 0.65,
+    "category": "performance"
+  },
+  {
+    "query": "Show me an example of aggregation pipeline",
+    "expected_sources": ["docs/examples/aggregation.md", "docs/api/aggregation.md"],
+    "min_score": 0.6,
+    "category": "examples"
+  }
+]

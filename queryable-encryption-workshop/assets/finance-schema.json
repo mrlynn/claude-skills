@@ -1,0 +1,29 @@
+{
+  "collectionName": "transactions",
+  "encryptedFields": {
+    "fields": [
+      {
+        "path": "cardLast4",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}",
+        "queries": {"queryType": "equality"}
+      },
+      {
+        "path": "cardNumberFull",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}"
+      },
+      {
+        "path": "cvv",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}"
+      },
+      {
+        "path": "ssn",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}",
+        "queries": {"queryType": "equality"}
+      }
+    ]
+  }
+}

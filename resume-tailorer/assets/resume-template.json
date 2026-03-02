@@ -1,0 +1,65 @@
+{
+  "contact": {
+    "name": "Michael Lynn",
+    "email": "michael@example.com",
+    "phone": "(555) 555-5555",
+    "linkedin": "linkedin.com/in/michaellynn",
+    "portfolio": "michaellynn.dev"
+  },
+  "summary": "Experienced developer advocate with 10+ years building technical communities and driving product adoption.",
+  "experience": [
+    {
+      "title": "Principal Staff Developer Advocate",
+      "company": "MongoDB",
+      "dates": "2015-Present",
+      "achievements": [
+        "Led 50+ customer workshops reaching 2,000+ developers, achieving 4.8/5 satisfaction score",
+        "Built RAG demo platform reducing integration time by 60% for enterprise customers",
+        "Co-host The MongoDB Podcast with 100K+ downloads annually",
+        "Developed queryable encryption workshop series adopted by 15 field teams globally"
+      ]
+    },
+    {
+      "title": "Senior Solutions Architect",
+      "company": "Tech Corp",
+      "dates": "2010-2015",
+      "achievements": [
+        "Architected MongoDB deployments for Fortune 500 clients handling 10M+ documents/day",
+        "Reduced query latency by 40% through index optimization and aggregation pipeline redesign",
+        "Mentored 20+ junior engineers on NoSQL best practices"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Startup Inc",
+      "dates": "2005-2010",
+      "achievements": [
+        "Built real-time analytics dashboard processing 1M events/day",
+        "Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes",
+        "Led migration from MySQL to MongoDB, improving write throughput by 5x"
+      ]
+    }
+  ],
+  "skills": [
+    "Python",
+    "MongoDB",
+    "Vector Search",
+    "RAG",
+    "Public Speaking",
+    "Workshop Development",
+    "Technical Writing",
+    "Developer Relations",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Node.js",
+    "React"
+  ],
+  "education": [
+    {
+      "degree": "B.S. Computer Science",
+      "school": "University of Technology",
+      "year": "2005"
+    }
+  ]
+}

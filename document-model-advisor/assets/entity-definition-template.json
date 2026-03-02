@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {
+      "name": "User",
+      "fields": ["id", "name", "email"],
+      "relationships": [
+        {
+          "to": "Post",
+          "type": "one-to-many",
+          "accessPattern": "separate",
+          "typical_count": "unbounded",
+          "update_frequency": "rare"
+        }
+      ]
+    },
+    {
+      "name": "Post",
+      "fields": ["id", "title", "content"],
+      "relationships": [
+        {
+          "to": "User",
+          "type": "many-to-one",
+          "accessPattern": "together",
+          "typical_count": 1,
+          "update_frequency": "rare"
+        }
+      ]
+    }
+  ]
+}

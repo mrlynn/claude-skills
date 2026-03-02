@@ -1,0 +1,59 @@
+{
+  "examples": [
+    {
+      "domain": "E-commerce",
+      "collections": {
+        "users": {
+          "_id": "ObjectId",
+          "name": "string",
+          "email": "string",
+          "addresses": [
+            {"type": "string", "street": "string", "city": "string"}
+          ]
+        },
+        "products": {
+          "_id": "ObjectId",
+          "name": "string",
+          "price": "number",
+          "categoryId": "ObjectId"
+        },
+        "orders": {
+          "_id": "ObjectId",
+          "customerId": "ObjectId",
+          "customerName": "string",
+          "items": [
+            {"productId": "ObjectId", "productName": "string", "quantity": "number"}
+          ],
+          "total": "number"
+        }
+      }
+    },
+    {
+      "domain": "Social Network",
+      "collections": {
+        "users": {
+          "_id": "ObjectId",
+          "username": "string",
+          "profile": {
+            "bio": "string",
+            "avatar": "string"
+          },
+          "friendIds": ["ObjectId"]
+        },
+        "posts": {
+          "_id": "ObjectId",
+          "authorId": "ObjectId",
+          "authorName": "string",
+          "content": "string",
+          "likeCount": "number"
+        },
+        "comments": {
+          "_id": "ObjectId",
+          "postId": "ObjectId",
+          "authorId": "ObjectId",
+          "text": "string"
+        }
+      }
+    }
+  ]
+}

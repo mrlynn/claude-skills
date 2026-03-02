@@ -1,0 +1,34 @@
+{
+  "collectionName": "patients",
+  "encryptedFields": {
+    "fields": [
+      {
+        "path": "ssn",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}",
+        "queries": {"queryType": "equality"}
+      },
+      {
+        "path": "dateOfBirth",
+        "bsonType": "date",
+        "keyId": "{{DATA_KEY_ID}}",
+        "queries": {
+          "queryType": "range",
+          "sparsity": 2,
+          "min": "1900-01-01T00:00:00.000Z",
+          "max": "2024-12-31T23:59:59.999Z"
+        }
+      },
+      {
+        "path": "diagnosis",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}"
+      },
+      {
+        "path": "prescription",
+        "bsonType": "string",
+        "keyId": "{{DATA_KEY_ID}}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "company": "Acme Corporation",
+  "industry": "FinTech",
+  "audience_size": 20,
+  "experience_level": "intermediate",
+  "current_stack": [
+    "PostgreSQL",
+    "Python",
+    "AWS"
+  ],
+  "mongodb_experience": "beginner",
+  "goals": [
+    "Migrate from PostgreSQL to MongoDB",
+    "Learn schema design patterns",
+    "Understand transaction guarantees"
+  ],
+  "constraints": [
+    "6 hour duration",
+    "Must include hands-on exercises",
+    "Corporate firewall (may block Atlas)"
+  ],
+  "use_cases": [
+    "Financial transactions",
+    "User account management",
+    "Real-time analytics"
+  ]
+}

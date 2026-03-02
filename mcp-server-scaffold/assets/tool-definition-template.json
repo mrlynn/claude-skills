@@ -1,0 +1,21 @@
+{
+  "name": "tool_name",
+  "description": "Clear description of what the tool does",
+  "method": "GET",
+  "path": "/api/resource/{id}",
+  "parameters": {
+    "path": ["id"],
+    "query": [],
+    "body": null
+  },
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Resource ID"
+      }
+    },
+    "required": ["id"]
+  }
+}
